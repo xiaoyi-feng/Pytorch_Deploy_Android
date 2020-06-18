@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="15dp"
+              android:orientation="vertical"
+              android:gravity="center_horizontal"
+              android:weightSum="1">
+    <android.support.v7.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="输入垃圾名称"
+        />
+    <TextView
+        android:id = "@+id/search_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0f0f0f"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/recycle_image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/recycle_icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+
+        />
+
+    <ImageButton
+        android:id="@+id/harmful_image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/harmful_icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+    <ImageButton
+        android:id="@+id/wet_image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/wet_icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/dry_image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/dry_icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+
+
+</LinearLayout>

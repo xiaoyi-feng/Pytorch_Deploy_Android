@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="72dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/results"
+        tools:layout_editor_absoluteX="0dp"/>
+        <TextView
+            android:id="@+id/results"
+            android:layout_width="300dp"
+            android:layout_height="59dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical|right"
+            tools:layout_editor_absoluteY="6dp"
+            tools:layout_editor_absoluteX="80dp"/>
+        <Button
+            android:id="@+id/action_button_camera"
+            android:layout_width="88dp"
+            android:layout_height="60dp"
+            android:background="#00aa00"
+            android:text="识别"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cleaner</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="content_button">识别</string>
+    <string name="title_photo">照片</string>
+    <string name="title_camera">摄像头</string>
+    <string name="search_is_null">抱歉，暂无该垃圾信息</string>
+    <string name="search_hint">请输入垃圾名称</string>
+</resources>
